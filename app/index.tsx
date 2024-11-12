@@ -1,5 +1,5 @@
 import React from "react";
-import {SafeAreaView, StyleSheet, TextInput, Button, View, Text, Alert, TouchableOpacity} from "react-native";
+import {StyleSheet, TextInput, View, Text, TouchableOpacity} from "react-native";
 
 export default function App (){
   return(
@@ -16,7 +16,6 @@ export default function App (){
         autoCapitalize="none"
         secureTextEntry
       />
-
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
@@ -28,9 +27,7 @@ export default function App (){
       <TouchableOpacity style={styles.subButtons}>
         <Text>Novo usuário</Text>
       </TouchableOpacity>
-     
     </View>
-
   );
 };
 
